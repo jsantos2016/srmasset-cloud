@@ -18,4 +18,4 @@ zuul:
   routes:
     customer:
       path: /services/customer/**
-      url: http://localhost:9097/customers/create
+      url: http://localhost:9097/v8/customers/active/all
