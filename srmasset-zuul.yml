@@ -17,5 +17,5 @@ eureka:
 zuul:
   routes:
     customer:
-      path: /services/customer/**
-      url: http://localhost:9098/v8/customers/active/all
+      path: /customers/create/**
+      url: http://localhost:9098/customers/create
